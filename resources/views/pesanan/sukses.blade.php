@@ -123,15 +123,15 @@
   <hr>
 
   <p>Scan <span class="highlight">QR DANA</span> di bawah ini:</p>
-  <img src="{{ asset('qrcode/danarenal.jpeg') }}" alt="QR DANA" class="qr">
+  <img src="{{ asset('qrcode/danaorang.jpg') }}" alt="QR DANA" class="qr">
 
   <p class="mt-2">Atau transfer ke:</p>
-  <h3>089‑65436‑7322</h3>
-  <p>a.n. <span class="highlight">Renaldi</span></p>
+  <h3>081‑1111‑12333</h3>
+  <p><span class="highlight">xxxx</span></p>
 
   <p class="mt-4">Setelah transfer, kirim bukti pembayaran ke admin:</p>
 
-  <a href="https://wa.me/6289654367322" target="_blank" class="btn-wa">
+  <a href="https://wa.me/01234567889" target="_blank" class="btn-wa">
     <i class="fab fa-whatsapp"></i> Kirim via WhatsApp
   </a>
 

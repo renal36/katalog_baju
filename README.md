@@ -20,7 +20,7 @@ A modern Laravel-based catalog app to manage products, categories, shopping cart
 
 ---
 
-## 🖼️ Tampilan Aplikasi (Screenshots)
+## 🖼️ Tampilan WEB (Screenshots)
 
 <table>
   <tr>
@@ -28,7 +28,7 @@ A modern Laravel-based catalog app to manage products, categories, shopping cart
     <td><img src="screenshots/home2.png" width="400"></td>
   </tr>
   <tr>
-    <td><img src="screenshots/home3.png" width="400"></td>
+    <td><img src="screenshots/home8.png" width="400"></td>
     <td><img src="screenshots/home4.png" width="400"></td>
   </tr>
   <tr>
