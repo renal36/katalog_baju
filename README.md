@@ -45,7 +45,6 @@ A modern Laravel-based catalog app to manage products, categories, shopping cart
 🎨 UI modern (AdminLTE + animasi warna)
 
 🔍 Pencarian & Filter Produk berdasarkan nama dan kategori
----
 
 
 
