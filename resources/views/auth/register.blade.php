@@ -1,100 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <title>Register – Katalog Baju</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Bootstrap & Font -->
+  <!-- Bootstrap & FontAwesome -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
 
   <style>
     body {
-      background: linear-gradient(145deg, #e8edf2, #dfe5ec);
+      background: linear-gradient(135deg, #c4dfff, #f5d0ff);
       font-family: 'Inter', sans-serif;
+      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
       margin: 0;
     }
 
     .register-card {
-      background: rgba(255, 255, 255, 0.7);
-      backdrop-filter: blur(15px);
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(16px);
       padding: 40px 32px;
       border-radius: 16px;
-      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
-      width: 100%;
       max-width: 450px;
-      animation: fadeInUp 0.8s ease forwards;
+      width: 100%;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 0.7s ease forwards;
     }
 
-    @keyframes fadeInUp {
+    @keyframes fadeIn {
       from { opacity: 0; transform: translateY(30px); }
       to { opacity: 1; transform: translateY(0); }
     }
 
-    h3 {
+    .register-card h3 {
       text-align: center;
       font-weight: 600;
-      margin-bottom: 25px;
-      color: #222;
+      margin-bottom: 28px;
+      color: #1f1f1f;
     }
 
     .input-group {
-      position: relative;
       margin-bottom: 20px;
     }
 
-    .input-icon {
-      position: absolute;
-      top: 50%;
-      left: 12px;
-      transform: translateY(-50%);
-      color: #3b82f6;
-      font-size: 16px;
-    }
-
-    .form-control {
-      padding-left: 40px;
-      height: 45px;
+    .input-group .form-control {
+      padding: 12px 16px 12px 42px;
       font-size: 14px;
-      border-radius: 8px;
+      border-radius: 10px;
       border: 1px solid #ccc;
     }
 
+    .input-group .input-group-text {
+      position: absolute;
+      z-index: 2;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: transparent;
+      border: none;
+      color: #6a67ce;
+    }
+
     .form-control:focus {
-      border-color: #3b82f6;
-      box-shadow: 0 0 0 0.15rem rgba(59, 130, 246, 0.25);
+      border-color: #6a67ce;
+      box-shadow: 0 0 0 0.15rem rgba(106, 103, 206, 0.25);
       outline: none;
     }
 
     .btn-custom {
-      background-color: #3b82f6;
-      color: #fff;
-      border: none;
+      background: linear-gradient(135deg, #6a67ce, #fc5c7d);
+      color: white;
       font-weight: 600;
       padding: 12px;
       width: 100%;
-      border-radius: 8px;
-      transition: background 0.3s ease;
+      border-radius: 10px;
+      border: none;
+      transition: 0.3s;
     }
 
     .btn-custom:hover {
-      background-color: #2563eb;
+      background: linear-gradient(135deg, #5a54b1, #e84e6a);
     }
 
     .form-link {
       text-align: center;
       margin-top: 20px;
       font-size: 14px;
+      color: #333;
     }
 
     .form-link a {
-      color: #3b82f6;
+      color: #6a67ce;
       text-decoration: none;
       font-weight: 500;
     }
@@ -106,6 +107,10 @@
     .alert {
       font-size: 13px;
       margin-bottom: 20px;
+    }
+
+    .position-relative {
+      position: relative;
     }
   </style>
 </head>
@@ -121,23 +126,23 @@
       </div>
     @endif
 
-    <div class="input-group">
-      <i class="fa fa-user input-icon"></i>
+    <div class="position-relative input-group">
+      <span class="input-group-text"><i class="fa fa-user"></i></span>
       <input type="text" name="name" class="form-control" placeholder="Nama Lengkap" required />
     </div>
 
-    <div class="input-group">
-      <i class="fa fa-envelope input-icon"></i>
+    <div class="position-relative input-group">
+      <span class="input-group-text"><i class="fa fa-envelope"></i></span>
       <input type="text" name="email" class="form-control" placeholder="Email atau Username" required />
     </div>
 
-    <div class="input-group">
-      <i class="fa fa-lock input-icon"></i>
+    <div class="position-relative input-group">
+      <span class="input-group-text"><i class="fa fa-lock"></i></span>
       <input type="password" name="password" class="form-control" placeholder="Password" required />
     </div>
 
-    <div class="input-group">
-      <i class="fa fa-lock input-icon"></i>
+    <div class="position-relative input-group">
+      <span class="input-group-text"><i class="fa fa-lock"></i></span>
       <input type="password" name="password_confirmation" class="form-control" placeholder="Konfirmasi Password" required />
     </div>
 
