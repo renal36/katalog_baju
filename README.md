@@ -8,16 +8,15 @@ A modern Laravel-based catalog app to manage products, categories, shopping cart
 
 ---
 
-## ✨ Fitur Unggulan
-
-- 🔐 **Login & Register** untuk Admin dan User
-- 🧥 **CRUD Produk & Kategori**
-- 🛒 **Keranjang Belanja**
-- 📜 **Riwayat Pesanan** terpisah untuk User & Admin
-- 💳 **Checkout via Scan QR Code**
-- 🎞️ **Tampilan Header dengan Video Animasi**
-- 🎨 **UI modern, responsif, dan interaktif** (AdminLTE + animasi warna)
-
+✨ Fitur Unggulan
+🔐 Login & Register untuk Admin dan User
+🧥 CRUD Produk & Kategori
+🛒 Keranjang Belanja
+📜 Riwayat Pesanan terpisah untuk User & Admin
+💳 Checkout via Scan QR Code
+🎞️ Tampilan Header dengan Video Animasi
+🎨 UI modern, responsif, dan interaktif (AdminLTE + animasi warna)
+🔍 Pencarian & Filter Produk berdasarkan nama dan kategori
 ---
 
 ## 🖼️ Tampilan WEB (Screenshots)
@@ -32,7 +31,7 @@ A modern Laravel-based catalog app to manage products, categories, shopping cart
     <td><img src="screenshots/home4.png" width="400"></td>
   </tr>
   <tr>
-    <td colspan="2"><img src="screenshots/home5.png" width="800"></td>
+    <td colspan="2"><img src="screenshots/home5.png" width="900"></td>
   </tr>
   <tr>
     <td><img src="screenshots/home6.png" width="400"></td>
