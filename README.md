@@ -57,7 +57,7 @@ Proyek ini dikerjakan oleh 4 orang dalam satu tim UAS:
 | 👨‍💻 Doni   | Project Manager       |
 | 👨‍💻 Renal  | Front-End Developer   |
 | 👨‍💻 Yusuf  | Back-End Developer    |
-| 👨‍💻 Dafi   | UI/UX & Database Design |
+| 👨‍💻 Dafi   | perancangan & Database  |
 
 ---
 
